@@ -32,6 +32,3 @@
 - `PUT /api/professionals/:id` - actualizar
 - `DELETE /api/professionals/:id` - eliminar
 
-## Notas
-- Este backend es para desarrollo local y educacional: no es seguro para producción.
-- Para producción habría que añadir validación, sanitización, autenticación y bloqueo de concurrencia en escrituras del archivo.
