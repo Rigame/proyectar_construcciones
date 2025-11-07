@@ -1,0 +1,15 @@
+{
+  "name": "proyectar-construcciones",
+  "version": "1.0.0",
+  "description": "Proyecto pr\u00e1ctico: plataforma de conexi\u00f3n con profesionales de la construcci\u00f3n (backend simple con JSON).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "nodemon": "^2.0.22"
+  }
+}

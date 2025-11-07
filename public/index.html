@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ProyectAR - Construcciones Sustentables</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>ProyectAR</h1>
+    <p>Conectamos clientes con profesionales expertos en construcción</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#quienes">Quiénes Somos</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#materiales">Materiales</a>
+    <a href="#registro">Registrarse</a>
+    <a href="#buscar">Buscar</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <main>
+    <section id="inicio" class="card">
+      <h2>Inicio</h2>
+      <div class="hero-placeholder">Imagen local incluida en /public/images</div>
+      <p>Bienvenido a nuestra plataforma. Aquí podés encontrar expertos en pintura, albañilería, carpintería y más.</p>
+    </section>
+
+    <section id="quienes" class="card">
+      <h2>Quiénes Somos</h2>
+      <p>Somos una empresa misionera que apuesta a la tecnología y la sustentabilidad en el mundo de la construcción.</p>
+      <p>Fundada en 2010, hemos participado en más de 200 proyectos ecológicos en toda la región.</p>
+    </section>
+
+    <section id="servicios" class="card">
+      <h2>Servicios</h2>
+      <ul>
+        <li>Diseño de casas e infraestructuras</li>
+        <li>Asesoramiento en construcción ecológica</li>
+        <li>Conexión con profesionales verificados</li>
+      </ul>
+    </section>
+
+    <section id="materiales" class="card">
+      <h2>Materiales Sostenibles</h2>
+      <div class="material-grid">
+        <div class="material-item">
+          <div class="img-sample">Madera FSC</div>
+          <h3>Madera certificada FSC</h3>
+          <p>Procedente de bosques gestionados de manera responsable y sostenible.</p>
+        </div>
+        <div class="material-item">
+          <div class="img-sample">Pintura ecológica</div>
+          <h3>Pinturas sin VOC</h3>
+          <p>Libres de compuestos orgánicos volátiles, mejorando la calidad del aire interior.</p>
+        </div>
+        <div class="material-item">
+          <div class="img-sample">Ladrillos</div>
+          <h3>Ladrillos reciclados</h3>
+          <p>De bajo impacto ambiental.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="registro" class="card">
+      <h2>Registro de Profesionales</h2>
+      <form id="formRegistro">
+        <input id="name" type="text" placeholder="Nombre completo" required />
+        <input id="email" type="email" placeholder="Correo electrónico" required />
+        <select id="specialty" required>
+          <option value="">Especialidad</option>
+          <option value="pintor">Pintor</option>
+          <option value="albanil">Albañil</option>
+          <option value="plomero">Plomero</option>
+          <option value="carpintero">Carpintero</option>
+        </select>
+        <input id="phone" type="text" placeholder="Teléfono" />
+        <textarea id="experience" placeholder="Experiencia (años, proyectos, etc.)" required></textarea>
+        <input id="photo" type="file" accept="image/*" />
+        <div class="form-actions">
+          <button type="submit">Enviar</button>
+          <button id="resetBtn" type="button">Limpiar</button>
+        </div>
+      </form>
+      <div id="registroMsg"></div>
+    </section>
+
+    <section id="buscar" class="card">
+      <h2>Buscar Profesionales</h2>
+      <label>Filtrar por especialidad:
+        <select id="filtro">
+          <option value="todos">Todos</option>
+          <option value="pintor">Pintor</option>
+          <option value="albanil">Albañil</option>
+          <option value="plomero">Plomero</option>
+          <option value="carpintero">Carpintero</option>
+        </select>
+      </label>
+
+      <div id="listaProfesionales"></div>
+    </section>
+
+    <section id="contacto" class="card">
+      <h2>Contacto</h2>
+      <form id="contactForm">
+        <input id="cname" type="text" placeholder="Tu nombre" required />
+        <input id="cemail" type="email" placeholder="Tu email" required />
+        <textarea id="cmessage" placeholder="Tu mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+
+      <div class="contact-info">
+        <h3>Visítanos</h3>
+        <p>📍 Av. Siempre Verde 123, Posadas, Misiones</p>
+        <p>📞 +54 376 4123456</p>
+        <p>✉️ info@construccionesmisiones.com</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Construcciones Sustentables Misiones</p>
+    <div class="social-links">
+      <a href="#" data-social="facebook">Facebook</a>
+      <a href="#" data-social="instagram">Instagram</a>
+      <a href="#" data-social="linkedin">LinkedIn</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

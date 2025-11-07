@@ -1,0 +1,28 @@
+{
+  "professionals": [
+    {
+      "id": "p1",
+      "name": "Pedro Gómez",
+      "email": "pedro@example.com",
+      "specialty": "albanil",
+      "experience": "10 años en obras residenciales",
+      "phone": "+543764123456"
+    },
+    {
+      "id": "p2",
+      "name": "Lucía Méndez",
+      "email": "lucia@example.com",
+      "specialty": "pintor",
+      "experience": "Especialista en pinturas ecológicas",
+      "phone": "+543764654321"
+    },
+    {
+      "name": "meza gabriel",
+      "email": "rgm150304@gmail.com",
+      "specialty": "albanil",
+      "experience": "muchos",
+      "phone": "03764715336",
+      "id": "1762545725315"
+    }
+  ]
+}
